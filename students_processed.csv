@@ -1,0 +1,8 @@
+name,average_score,final_grade,total_score,subject1_grade,subject1_score,subject2_grade,subject2_score,subject3_grade,subject3_score,subject4_grade,subject4_score,summary
+Mike,95.0,A,190,A,100,A,90,,,,,Mike have pass the year with average score of 95.0 and A as his final grade.
+Sarah,68.75,D,275,B,80,C,70,D,65,D,60,Sarah have pass the year with average score of 68.75 and D as his final grade.
+NULL,0.0,F,0,F,0,F,0,F,0,,,Null have fail the year because of F in Subject1 and Subject2 and Subject3. 
+Emily,100.0,A,200,A,100,A,100,,,,,Emily have pass the year with average score of 100.0 and A as his final grade.
+Jake,97.0,A,194,A,95,A,99,,,,,Jake have pass the year with average score of 97.0 and A as his final grade.
+Jane Doe,85.0,B,255,A,95,B,85,C,75,,,Jane doe have pass the year with average score of 85.0 and B as his final grade.
+Alice,100.0,A,300,A,100,A,100,A,100,,,Alice have pass the year with average score of 100.0 and A as his final grade.

@@ -1,0 +1,16 @@
+name,math,science,english
+,90,80,70
+John,abc,85,75
+Jane,95,
+Mike,100,90
+Sarah,80,70,65,60
+, , ,
+Tom,NaN,85,80
+Chris,,90,100
+Angela,85,not_a_number,95
+Bob
+NULL,0,0,0
+Emily,100,100,-5
+Jake,95,99
+"Jane Doe",95,85,75
+Alice,100,100,100
