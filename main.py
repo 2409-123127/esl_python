@@ -1,8 +1,8 @@
 import sys
+sys.path.append('.') # Add current directory to path to import modules because it does not work on some computers
 from ClassReader import Reader
 from ClassStudent import Student
 from ClassWriter import Writer
-
 # Read csv file path from command line arguments
 # @return string - file path with valid .csv extension
 def csv_file_path() -> str:
@@ -72,7 +72,7 @@ if __name__ == "__main__":
     # If file_path is empty exit program
     if not file_path:
         print("Program exit, file path not provided")
-        exit(1)
+        sys.exit(1)
 
     print(f"Input file: {file_path}")
 
@@ -85,7 +85,7 @@ if __name__ == "__main__":
 
     if not csv_data:
         print("Program exit, no data was read in csv file")
-        exit(1)
+        sys.exit(1)
 
     full_file_len = csv_reader.get_file_len()
     print(f"Loaded {len(csv_data)} out of {full_file_len} lines from {file_path}")
@@ -94,7 +94,7 @@ if __name__ == "__main__":
     
     if not students_data:
         print("Program exit, student data can not be created from csv data")
-        exit(1)
+        sys.exit(1)
 
     print("Saving data to students_processed.csv")
     csv_writer = Writer("students_processed.csv")
